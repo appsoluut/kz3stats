@@ -1,0 +1,201 @@
+TKZ3Stats
+v7
+r0
+t322526194.747663
+cCheck dependencies
+cProcessInfoPlistFile /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/Info.plist KZ3Stats-Info.plist
+cProcessPCH /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch.gch KZ3Stats_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/main.o /Users/paul/Documents/Projects/KZ3Stats/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/KZ3StatsAppDelegate.o /Users/paul/Documents/Projects/KZ3Stats/Classes/KZ3StatsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats normal i386
+cGenerateDSYMFile /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app.dSYM /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats
+cTouch /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/KZ3StatsAppDelegate.h
+c000000004D8924160000000000000144
+t1300833302
+s324
+i<UIKit/UIKit.h>
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/KZ3StatsAppDelegate.m
+c000000004D89247000000000000009F4
+t1300833392
+s2548
+i"KZ3StatsAppDelegate.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/KZ3Stats_Prefix.pch
+c000000004D89241600000000000000B9
+t1300833302
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/paul/Documents/Projects/KZ3Stats/MainWindow.xib
+c000000004D892416000000000000210D
+t1300833302
+s8461
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app
+t1300833394
+s170
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app.dSYM
+t1300833394
+s102
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/Info.plist
+t1300833393
+s567
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats
+t1300833394
+s15804
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/MainWindow.nib
+t2
+s0
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/PkgInfo
+t1300833393
+s8
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/KZ3Stats.LinkFileList
+c000000004D8924710000000000000109
+t1300833393
+s265
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/KZ3StatsAppDelegate.o
+t1300833394
+s50104
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/main.o
+t1300833394
+s6496
+
+N/Users/paul/Documents/Projects/KZ3Stats/main.m
+c000000004D89244F0000000000000177
+t1300833359
+s375
+i<UIKit/UIKit.h>
+
+N/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch.gch
+t1300833393
+s15453392
+
+NKZ3Stats-Info.plist
+c000000004D8924420000000000000342
+t1300833346
+s834
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies322526193#322526193#0(0"0(0#1#0"7161117524010233856#0"0#
+
+CCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/KZ3StatsAppDelegate.o /Users/paul/Documents/Projects/KZ3Stats/Classes/KZ3StatsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322526194.053915
+e322526194.202072
+r1
+xCompileC
+xbuild/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/KZ3StatsAppDelegate.o
+x/Users/paul/Documents/Projects/KZ3Stats/Classes/KZ3StatsAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/paul/Documents/Projects/KZ3Stats/Classes/KZ3StatsAppDelegate.m322526194#322526194#0(0"0(0#0#69"/Users/paul/Documents/Projects/KZ3Stats/Classes/KZ3StatsAppDelegate.m8612116288#1991"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3Stats-generated-files.hmap -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3Stats-own-target-headers.hmap -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3Stats-all-target-headers.hmap -iquote /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3Stats-project-headers.hmap -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -I/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/include -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources/i386 -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources -include /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch -c /Users/paul/Documents/Projects/KZ3Stats/Classes/KZ3StatsAppDelegate.m -o /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/KZ3StatsAppDelegate.o0#
+
+CCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/main.o /Users/paul/Documents/Projects/KZ3Stats/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322526194.053006
+e322526194.193586
+r1
+xCompileC
+xbuild/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/main.o
+x/Users/paul/Documents/Projects/KZ3Stats/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/paul/Documents/Projects/KZ3Stats/main.m322526194#322526194#0(0"0(0#0#46"/Users/paul/Documents/Projects/KZ3Stats/main.m8612861248#1953"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3Stats-generated-files.hmap -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3Stats-own-target-headers.hmap -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3Stats-all-target-headers.hmap -iquote /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3Stats-project-headers.hmap -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -I/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/include -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources/i386 -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources -include /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch -c /Users/paul/Documents/Projects/KZ3Stats/main.m -o /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/paul/Documents/Projects/KZ3Stats/MainWindow.xib
+r0
+
+CGenerateDSYMFile /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app.dSYM /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats
+s322526194.529246
+e322526194.728798
+r1
+xGenerateDSYMFile
+x/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app.dSYM
+x/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/KZ3Stats.app.dSYM build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats322526194#322526194#0(0"0(0#0#89"/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats8612575072#395"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/usr/bin/dsymutil /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats -o /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app.dSYM0#
+
+CLd /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats normal i386
+s322526194.202168
+e322526194.529150
+r1
+xLd
+x/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats
+xnormal
+xi386
+lSLF07#2@94"Link /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats322526194#322526194#0(0"0(0#0#0"8612891040#918"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -filelist /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/KZ3Stats.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats0#
+
+CProcessInfoPlistFile /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/Info.plist KZ3Stats-Info.plist
+s322526193.060490
+e322526193.076256
+r1
+xProcessInfoPlistFile
+x/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/Info.plist
+xKZ3Stats-Info.plist
+lSLF07#2@27"Process KZ3Stats-Info.plist322526193#322526193#0(0"0(0#0#59"/Users/paul/Documents/Projects/KZ3Stats/KZ3Stats-Info.plist29273878621126700#489"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility KZ3Stats-Info.plist -genpkginfo /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/Info.plist0#
+
+CProcessPCH /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch.gch KZ3Stats_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s322526193.076358
+e322526194.052920
+r1
+xProcessPCH
+x/var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch.gch
+xKZ3Stats_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile KZ3Stats_Prefix.pch322526193#322526194#0(0"0(0#0#59"/Users/paul/Documents/Projects/KZ3Stats/KZ3Stats_Prefix.pch8611272000#1843"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3Stats-generated-files.hmap -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3Stats-own-target-headers.hmap -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3Stats-all-target-headers.hmap -iquote /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3Stats-project-headers.hmap -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -I/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/include -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources/i386 -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources -c /Users/paul/Documents/Projects/KZ3Stats/KZ3Stats_Prefix.pch -o /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch.gch0#
+
+CTouch /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app
+s322526194.728954
+e322526194.747611
+r1
+xTouch
+x/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app
+lSLF07#2@86"Touch /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app322526194#322526194#0(0"0(0#0#0"8612029184#285"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app0#
+

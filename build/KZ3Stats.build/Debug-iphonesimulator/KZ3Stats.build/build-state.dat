@@ -1,0 +1,1072 @@
+TKZ3Stats
+v7
+r0
+t325181036.723367
+cCheck dependencies
+cProcessInfoPlistFile "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/Info.plist" KZ3Stats-Info.plist
+cCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/KZ3StatsDatabase.sql" Resources/KZ3StatsDatabase.sql
+cCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/background.jpg" Resources/images/background.jpg
+cCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/background@2x.jpg" Resources/images/background@2x.jpg
+cCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/bg_tabcontainer.jpg" Resources/images/bg_tabcontainer.jpg
+cCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/bg_tabcontainer@2x.jpg" Resources/images/bg_tabcontainer@2x.jpg
+cCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/Default.png" Resources/Default.png
+cCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/Default@2x.png" Resources/Default@2x.png
+cCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/Icon-Small.png" Resources/Icon-Small.png
+cCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/Icon-Small@2x.png" Resources/Icon-Small@2x.png
+cCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/Icon.png" Resources/Icon.png
+cCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/Icon@2x.png" Resources/Icon@2x.png
+cCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/iTunesArtwork" Resources/iTunesArtwork
+cCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/kills.png" Resources/images/kills.png
+cCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/kills@2x.png" Resources/images/kills@2x.png
+cProcessPCH /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch.gch KZ3Stats_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/main.o /Users/paul/Documents/Projects/KZ3Stats/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/KZ3StatsAppDelegate.o /Users/paul/Documents/Projects/KZ3Stats/Classes/KZ3StatsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/FriendsListViewController.o /Users/paul/Documents/Projects/KZ3Stats/Classes/../Classes/FriendsListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/Friend.o /Users/paul/Documents/Projects/KZ3Stats/Classes/Models/Friend.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/StatsViewController.o /Users/paul/Documents/Projects/KZ3Stats/Classes/../StatsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/StatsView.o /Users/paul/Documents/Projects/KZ3Stats/Classes/StatsView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/Database.o /Users/paul/Documents/Projects/KZ3Stats/Classes/Database.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/AddFriendViewController.o /Users/paul/Documents/Projects/KZ3Stats/Classes/../AddFriendViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/ApiRequest.o /Users/paul/Documents/Projects/KZ3Stats/Classes/ApiRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/OverviewRequest.o /Users/paul/Documents/Projects/KZ3Stats/Classes/OverviewRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/PLBButton.o /Users/paul/Documents/Projects/KZ3Stats/Classes/PLBButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/KZ3 Stats" normal i386
+cGenerateDSYMFile "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app.dSYM" "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/KZ3 Stats"
+cTouch "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app"
+
+N/Users/paul/Documents/Projects/KZ3Stats/AddFriendViewController.h
+c000000004D90FFE200000000000001AC
+t1301348322
+s428
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"Database.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/../AddFriendViewController.h
+c000000004D90FFE200000000000001AC
+t1301348322
+s428
+i<UIKit/UIKit.h>
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/../AddFriendViewController.m
+c000000004D9101C300000000000008E1
+t1301348803
+s2273
+i"AddFriendViewController.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/../Classes/Database.m
+c000000004D8F6DC100000000000000B9
+t1301245377
+s185
+i"Database.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/../Classes/FriendsListViewController.m
+c000000004D94F5B80000000000001B33
+t1301607864
+s6963
+i"FriendsListViewController.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/../StatsViewController.h
+c000000004DA4BD6B000000000000023E
+t1302642027
+s574
+i<UIKit/UIKit.h>
+i"Database.h"
+i"FriendsListViewController.h"
+i"Friend.h"
+i"StatsView.h"
+i"OverviewRequest.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/../StatsViewController.m
+c000000004DA4C32C00000000000012C8
+t1302643500
+s4808
+i"StatsViewController.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/ApiRequest.h
+c000000004DA4C3500000000000000140
+t1302643536
+s320
+i<Foundation/Foundation.h>
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/ApiRequest.m
+c000000004DA4C321000000000000072D
+t1302643489
+s1837
+i"ApiRequest.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/Database.h
+c000000004D8FB4A100000000000001DC
+t1301263521
+s476
+i<Foundation/Foundation.h>
+i<sqlite3.h>
+i"Friend.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/Database.m
+c000000004D8FB3E00000000000001017
+t1301263328
+s4119
+i"Database.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/FriendsListViewController.h
+c000000004D9107B000000000000001DC
+t1301350320
+s476
+i<UIKit/UIKit.h>
+i"Database.h"
+i"Friend.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/FriendsListViewController.m
+c000000004D8BB67C00000000000012AF
+t1301001852
+s4783
+i"FriendsListViewController.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/KZ3StatsAppDelegate.h
+c000000004DA4C3450000000000000260
+t1302643525
+s608
+i<UIKit/UIKit.h>
+i"Database.h"
+i"FriendsListViewController.h"
+i"StatsViewController.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/KZ3StatsAppDelegate.m
+c000000004DA4C2DE0000000000000CD6
+t1302643422
+s3286
+i"KZ3StatsAppDelegate.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/Models/Friend.h
+c000000004D8BBD530000000000000184
+t1301003603
+s388
+i<Foundation/Foundation.h>
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/Models/Friend.m
+c000000004D8FB5780000000000000156
+t1301263736
+s342
+i"Friend.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/OverviewRequest.h
+c000000004DA4BF5B0000000000000133
+t1302642523
+s307
+i<Foundation/Foundation.h>
+i"ApiRequest.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/OverviewRequest.m
+c000000004DA4BFC3000000000000025C
+t1302642627
+s604
+i"OverviewRequest.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/PLBButton.h
+c000000004DB1A67F0000000000000163
+t1303488127
+s355
+i<UIKit/UIKit.h>
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/PLBButton.m
+c000000004DB1A74300000000000004A6
+t1303488323
+s1190
+i"PLBButton.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/StatsView.h
+c000000004DAFD1C500000000000001C2
+t1303368133
+s450
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+i"PLBButton.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/Classes/StatsView.m
+c000000004DB978DB000000000000081F
+t1304000731
+s2079
+i"StatsView.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/FriendsListViewController.h
+c000000004D8BB58D00000000000000F6
+t1301001613
+s246
+i<UIKit/UIKit.h>
+
+N/Users/paul/Documents/Projects/KZ3Stats/FriendsListViewController.m
+c000000004D8BB67C00000000000012AF
+t1301001852
+s4783
+i"FriendsListViewController.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/KZ3Stats_Prefix.pch
+c000000004D89241600000000000000B9
+t1300833302
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/paul/Documents/Projects/KZ3Stats/MainWindow.xib
+c000000004D892416000000000000210D
+t1300833302
+s8461
+
+N/Users/paul/Documents/Projects/KZ3Stats/Resources/Default.png
+c000000004D8F3F7B00000000000433C3
+t1301233531
+s275395
+
+N/Users/paul/Documents/Projects/KZ3Stats/Resources/Default@2x.png
+c000000004D8F3F61000000000010408F
+t1301233505
+s1065103
+
+N/Users/paul/Documents/Projects/KZ3Stats/Resources/Icon-Small.png
+c000000004D8F459A0000000000000BA6
+t1301235098
+s2982
+
+N/Users/paul/Documents/Projects/KZ3Stats/Resources/Icon-Small@2x.png
+c000000004D8F456100000000000020AB
+t1301235041
+s8363
+
+N/Users/paul/Documents/Projects/KZ3Stats/Resources/Icon.png
+c000000004D8F45810000000000001F75
+t1301235073
+s8053
+
+N/Users/paul/Documents/Projects/KZ3Stats/Resources/Icon@2x.png
+c000000004D8F4529000000000000673D
+t1301234985
+s26429
+
+N/Users/paul/Documents/Projects/KZ3Stats/Resources/KZ3StatsDatabase.sql
+c000000004D8BBC650000000000000800
+t1301003365
+s2048
+
+N/Users/paul/Documents/Projects/KZ3Stats/Resources/iTunesArtwork
+c000000004D8F46270000000000065BEF
+t1301235239
+s416751
+
+N/Users/paul/Documents/Projects/KZ3Stats/Resources/images/background.jpg
+c000000004D8F2D7800000000000021FA
+t1301228920
+s8698
+
+N/Users/paul/Documents/Projects/KZ3Stats/Resources/images/background@2x.jpg
+c000000004D8BC8C60000000000005BEA
+t1301006534
+s23530
+
+N/Users/paul/Documents/Projects/KZ3Stats/Resources/images/bg_tabcontainer.jpg
+c000000004D8F3D850000000000003F68
+t1301233029
+s16232
+
+N/Users/paul/Documents/Projects/KZ3Stats/Resources/images/bg_tabcontainer@2x.jpg
+c000000004D8F3DAE000000000000D4C6
+t1301233070
+s54470
+
+N/Users/paul/Documents/Projects/KZ3Stats/Resources/images/kills.png
+c000000004D8F483F000000000000042B
+t1301235775
+s1067
+
+N/Users/paul/Documents/Projects/KZ3Stats/Resources/images/kills@2x.png
+c000000004D8BC64A00000000000007A1
+t1301005898
+s1953
+
+N/Users/paul/Documents/Projects/KZ3Stats/StatsViewController.h
+c000000004DA4BD6B000000000000023E
+t1302642027
+s574
+i<UIKit/UIKit.h>
+i"Database.h"
+i"FriendsListViewController.h"
+i"Friend.h"
+i"StatsView.h"
+i"OverviewRequest.h"
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app
+t1303488236
+s646
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app.dSYM
+t1303488236
+s102
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/Default.png
+t1301246777
+s275395
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/Default@2x.png
+t1301246777
+s1065103
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/Icon-Small.png
+t1301246777
+s2982
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/Icon-Small@2x.png
+t1301246777
+s8363
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/Icon.png
+t1301246777
+s8053
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/Icon@2x.png
+t1301246777
+s26429
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/Info.plist
+t1301246777
+s654
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/KZ3 Stats
+t1303488236
+s64920
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/KZ3StatsDatabase.sql
+t1301246777
+s2048
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/PkgInfo
+t1301246777
+s8
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/background.jpg
+t1301246777
+s8698
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/background@2x.jpg
+t1301246777
+s23530
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/bg_tabcontainer.jpg
+t1301246777
+s16232
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/bg_tabcontainer@2x.jpg
+t1301246777
+s54470
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/iTunesArtwork
+t1301246777
+s416751
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/kills.png
+t1301246777
+s1067
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/kills@2x.png
+t1301246777
+s1953
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app
+t1301246741
+s646
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app.dSYM
+t1301246741
+s102
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/Default.png
+t1301235983
+s275395
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/Default@2x.png
+t1301235983
+s1065103
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/Icon-Small.png
+t1301235983
+s2982
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/Icon-Small@2x.png
+t1301235983
+s8363
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/Icon.png
+t1301235983
+s8053
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/Icon@2x.png
+t1301235983
+s26429
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/Info.plist
+t1301235983
+s651
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats
+t1301246741
+s39672
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3StatsDatabase.sql
+t1301004130
+s2048
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/MainWindow.nib
+t2
+s0
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/PkgInfo
+t1301235983
+s8
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/background.jpg
+t1301228967
+s8698
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/background@2x.jpg
+t1301229850
+s23530
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/bg_tabcontainer.jpg
+t1301235983
+s16232
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/bg_tabcontainer@2x.jpg
+t1301235983
+s54470
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/iTunesArtwork
+t1301235983
+s416751
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/kills.png
+t1301236092
+s1067
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/kills@2x.png
+t1301236092
+s1953
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/AddFriendViewController.o
+t1301348805
+s46516
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/ApiRequest.o
+t1302643540
+s16216
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/Database.o
+t1301294349
+s16404
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/Friend.o
+t1301294349
+s8988
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/FriendsListViewController.o
+t1302638160
+s68272
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/KZ3 Stats.LinkFileList
+c000000004DAFD1F500000000000005C6
+t1303368181
+s1478
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/KZ3Stats.LinkFileList
+c000000004D8F6EEB00000000000003A9
+t1301245675
+s937
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/KZ3StatsAppDelegate.o
+t1303488236
+s56480
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/OverviewRequest.o
+t1302643541
+s9804
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/PLBButton.o
+t1303488236
+s42136
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/StatsView.o
+t1303488236
+s46348
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/StatsViewController.o
+t1303488236
+s58380
+
+N/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/main.o
+t1301246778
+s6496
+
+N/Users/paul/Documents/Projects/KZ3Stats/main.m
+c000000004D89244F0000000000000177
+t1300833359
+s375
+i<UIKit/UIKit.h>
+
+N/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sqlite3.h
+c000000004CC109C90000000000042B54
+t1287719369
+s273236
+
+N/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libsqlite3.0.dylib
+c000000004CC109D90000000000092C20
+t1287719385
+s601120
+
+N/var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch.gch
+t1301246778
+s15453392
+
+NKZ3Stats-Info.plist
+c000000004D8F733700000000000003B4
+t1301246775
+s948
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies325181036#325181036#0(0"0(0#1#0"7161117524010233856#0"0#
+
+CCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/AddFriendViewController.o /Users/paul/Documents/Projects/KZ3Stats/Classes/../AddFriendViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s323041605.411409
+e323041605.557588
+r1
+xCompileC
+xbuild/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/AddFriendViewController.o
+x/Users/paul/Documents/Projects/KZ3Stats/Classes/../AddFriendViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/paul/Documents/Projects/KZ3Stats/Classes/../AddFriendViewController.m323041605#323041605#0(0"0(0#0#76"/Users/paul/Documents/Projects/KZ3Stats/Classes/../AddFriendViewController.m8604354496#2014"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-generated-files.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-own-target-headers.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-all-target-headers.hmap" -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-project-headers.hmap" -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -I/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/include -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources/i386 -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources -include /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch -c /Users/paul/Documents/Projects/KZ3Stats/Classes/../AddFriendViewController.m -o /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/AddFriendViewController.o0#
+
+CCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/ApiRequest.o /Users/paul/Documents/Projects/KZ3Stats/Classes/ApiRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s324336340.862826
+e324336340.975742
+r1
+xCompileC
+xbuild/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/ApiRequest.o
+x/Users/paul/Documents/Projects/KZ3Stats/Classes/ApiRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/paul/Documents/Projects/KZ3Stats/Classes/ApiRequest.m324336340#324336340#0(0"0(0#0#60"/Users/paul/Documents/Projects/KZ3Stats/Classes/ApiRequest.m8654324800#1985"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-generated-files.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-own-target-headers.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-all-target-headers.hmap" -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-project-headers.hmap" -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -I/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/include -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources/i386 -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources -include /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch -c /Users/paul/Documents/Projects/KZ3Stats/Classes/ApiRequest.m -o /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/ApiRequest.o0#
+
+CCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/Database.o /Users/paul/Documents/Projects/KZ3Stats/Classes/../Classes/Database.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/Database.o /Users/paul/Documents/Projects/KZ3Stats/Classes/Database.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322987149.416114
+e322987149.490060
+r1
+xCompileC
+xbuild/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/Database.o
+x/Users/paul/Documents/Projects/KZ3Stats/Classes/Database.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/paul/Documents/Projects/KZ3Stats/Classes/Database.m322987149#322987149#0(0"0(0#0#58"/Users/paul/Documents/Projects/KZ3Stats/Classes/Database.m8613161408#1981"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-generated-files.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-own-target-headers.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-all-target-headers.hmap" -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-project-headers.hmap" -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -I/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/include -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources/i386 -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources -include /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch -c /Users/paul/Documents/Projects/KZ3Stats/Classes/Database.m -o /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/Database.o0#
+
+CCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/Friend.o /Users/paul/Documents/Projects/KZ3Stats/Classes/Models/Friend.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322987149.361534
+e322987149.415934
+r1
+xCompileC
+xbuild/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/Friend.o
+x/Users/paul/Documents/Projects/KZ3Stats/Classes/Models/Friend.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/paul/Documents/Projects/KZ3Stats/Classes/Models/Friend.m322987149#322987149#0(0"0(0#0#63"/Users/paul/Documents/Projects/KZ3Stats/Classes/Models/Friend.m8610717216#1984"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-generated-files.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-own-target-headers.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-all-target-headers.hmap" -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-project-headers.hmap" -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -I/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/include -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources/i386 -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources -include /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch -c /Users/paul/Documents/Projects/KZ3Stats/Classes/Models/Friend.m -o /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/Friend.o0#
+
+CCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/FriendsListViewController.o /Users/paul/Documents/Projects/KZ3Stats/Classes/../Classes/FriendsListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s324330959.256933
+e324330960.248777
+r1
+xCompileC
+xbuild/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/FriendsListViewController.o
+x/Users/paul/Documents/Projects/KZ3Stats/Classes/../Classes/FriendsListViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/paul/Documents/Projects/KZ3Stats/Classes/../Classes/FriendsListViewController.m324330959#324330960#0(0"0(0#0#86"/Users/paul/Documents/Projects/KZ3Stats/Classes/../Classes/FriendsListViewController.m8652833056#2026"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-generated-files.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-own-target-headers.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-all-target-headers.hmap" -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-project-headers.hmap" -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -I/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/include -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources/i386 -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources -include /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch -c /Users/paul/Documents/Projects/KZ3Stats/Classes/../Classes/FriendsListViewController.m -o /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/FriendsListViewController.o0#
+
+CCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/FriendsListViewController.o /Users/paul/Documents/Projects/KZ3Stats/Classes/FriendsListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/FriendsListViewController.o /Users/paul/Documents/Projects/KZ3Stats/FriendsListViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322694654.595086
+e322694654.747966
+r1
+xCompileC
+xbuild/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/FriendsListViewController.o
+x/Users/paul/Documents/Projects/KZ3Stats/FriendsListViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/paul/Documents/Projects/KZ3Stats/FriendsListViewController.m322694654#322694654#0(0"0(0#0#67"/Users/paul/Documents/Projects/KZ3Stats/FriendsListViewController.m8620202688#1995"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3Stats-generated-files.hmap -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3Stats-own-target-headers.hmap -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3Stats-all-target-headers.hmap -iquote /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3Stats-project-headers.hmap -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -I/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/include -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources/i386 -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources -include /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch -c /Users/paul/Documents/Projects/KZ3Stats/FriendsListViewController.m -o /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/FriendsListViewController.o0#
+
+CCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/KZ3StatsAppDelegate.o /Users/paul/Documents/Projects/KZ3Stats/Classes/KZ3StatsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325181036.430212
+e325181036.537184
+r1
+xCompileC
+xbuild/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/KZ3StatsAppDelegate.o
+x/Users/paul/Documents/Projects/KZ3Stats/Classes/KZ3StatsAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/paul/Documents/Projects/KZ3Stats/Classes/KZ3StatsAppDelegate.m325181036#325181036#0(0"0(0#0#69"/Users/paul/Documents/Projects/KZ3Stats/Classes/KZ3StatsAppDelegate.m7307761437599099904#2003"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-generated-files.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-own-target-headers.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-all-target-headers.hmap" -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-project-headers.hmap" -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -I/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/include -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources/i386 -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources -include /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch -c /Users/paul/Documents/Projects/KZ3Stats/Classes/KZ3StatsAppDelegate.m -o /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/KZ3StatsAppDelegate.o0#
+
+CCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/OverviewRequest.o /Users/paul/Documents/Projects/KZ3Stats/Classes/OverviewRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s324336340.939924
+e324336341.004893
+r1
+xCompileC
+xbuild/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/OverviewRequest.o
+x/Users/paul/Documents/Projects/KZ3Stats/Classes/OverviewRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/paul/Documents/Projects/KZ3Stats/Classes/OverviewRequest.m324336340#324336341#0(0"0(0#0#65"/Users/paul/Documents/Projects/KZ3Stats/Classes/OverviewRequest.m8642857184#1995"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-generated-files.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-own-target-headers.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-all-target-headers.hmap" -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-project-headers.hmap" -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -I/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/include -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources/i386 -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources -include /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch -c /Users/paul/Documents/Projects/KZ3Stats/Classes/OverviewRequest.m -o /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/OverviewRequest.o0#
+
+CCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/PLBButton.o /Users/paul/Documents/Projects/KZ3Stats/Classes/PLBButton.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325181036.600464
+e325181036.669125
+r1
+xCompileC
+xbuild/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/PLBButton.o
+x/Users/paul/Documents/Projects/KZ3Stats/Classes/PLBButton.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/paul/Documents/Projects/KZ3Stats/Classes/PLBButton.m325181036#325181036#0(0"0(0#0#59"/Users/paul/Documents/Projects/KZ3Stats/Classes/PLBButton.m8626963072#1983"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-generated-files.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-own-target-headers.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-all-target-headers.hmap" -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-project-headers.hmap" -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -I/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/include -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources/i386 -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources -include /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch -c /Users/paul/Documents/Projects/KZ3Stats/Classes/PLBButton.m -o /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/PLBButton.o0#
+
+CCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/StatsView.o /Users/paul/Documents/Projects/KZ3Stats/Classes/StatsView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325181036.537296
+e325181036.649379
+r1
+xCompileC
+xbuild/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/StatsView.o
+x/Users/paul/Documents/Projects/KZ3Stats/Classes/StatsView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/paul/Documents/Projects/KZ3Stats/Classes/StatsView.m325181036#325181036#0(0"0(0#0#59"/Users/paul/Documents/Projects/KZ3Stats/Classes/StatsView.m8627373184#1983"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-generated-files.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-own-target-headers.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-all-target-headers.hmap" -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-project-headers.hmap" -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -I/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/include -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources/i386 -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources -include /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch -c /Users/paul/Documents/Projects/KZ3Stats/Classes/StatsView.m -o /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/StatsView.o0#
+
+CCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/StatsViewController.o /Users/paul/Documents/Projects/KZ3Stats/Classes/../StatsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s325181036.431235
+e325181036.600095
+r1
+xCompileC
+xbuild/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/StatsViewController.o
+x/Users/paul/Documents/Projects/KZ3Stats/Classes/../StatsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/paul/Documents/Projects/KZ3Stats/Classes/../StatsViewController.m325181036#325181036#0(0"0(0#0#72"/Users/paul/Documents/Projects/KZ3Stats/Classes/../StatsViewController.m8614623616#2006"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-generated-files.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-own-target-headers.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-all-target-headers.hmap" -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-project-headers.hmap" -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -I/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/include -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources/i386 -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources -include /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch -c /Users/paul/Documents/Projects/KZ3Stats/Classes/../StatsViewController.m -o /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/StatsViewController.o0#
+
+CCompileC build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/main.o /Users/paul/Documents/Projects/KZ3Stats/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s322939578.206228
+e322939578.261049
+r1
+xCompileC
+xbuild/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/main.o
+x/Users/paul/Documents/Projects/KZ3Stats/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/paul/Documents/Projects/KZ3Stats/main.m322939578#322939578#0(0"0(0#0#46"/Users/paul/Documents/Projects/KZ3Stats/main.m8652133824#1965"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-generated-files.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-own-target-headers.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-all-target-headers.hmap" -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-project-headers.hmap" -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -I/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/include -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources/i386 -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources -include /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch -c /Users/paul/Documents/Projects/KZ3Stats/main.m -o /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/paul/Documents/Projects/KZ3Stats/MainWindow.xib
+r0
+
+CCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/Default.png" Resources/Default.png
+s322939577.243585
+e322939577.332891
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3 Stats.app/Default.png
+xResources/Default.png
+lSLF07#2@26"Copy Resources/Default.png322939577#322939577#0(0"0(0#0#61"/Users/paul/Documents/Projects/KZ3Stats/Resources/Default.png8654864384#492"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/Default.png "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app"0#
+
+CCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/Default@2x.png" Resources/Default@2x.png
+s322939577.245068
+e322939577.372950
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3 Stats.app/Default@2x.png
+xResources/Default@2x.png
+lSLF07#2@29"Copy Resources/Default@2x.png322939577#322939577#0(0"0(0#0#64"/Users/paul/Documents/Projects/KZ3Stats/Resources/Default@2x.png8652727840#495"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/Default@2x.png "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app"0#
+
+CCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/Icon-Small.png" Resources/Icon-Small.png
+s322939577.246328
+e322939577.332979
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3 Stats.app/Icon-Small.png
+xResources/Icon-Small.png
+lSLF07#2@29"Copy Resources/Icon-Small.png322939577#322939577#0(0"0(0#0#64"/Users/paul/Documents/Projects/KZ3Stats/Resources/Icon-Small.png8652576320#495"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/Icon-Small.png "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app"0#
+
+CCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/Icon-Small@2x.png" Resources/Icon-Small@2x.png
+s322939577.247605
+e322939577.333068
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3 Stats.app/Icon-Small@2x.png
+xResources/Icon-Small@2x.png
+lSLF07#2@32"Copy Resources/Icon-Small@2x.png322939577#322939577#0(0"0(0#0#67"/Users/paul/Documents/Projects/KZ3Stats/Resources/Icon-Small@2x.png8652481312#498"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/Icon-Small@2x.png "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app"0#
+
+CCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/Icon.png" Resources/Icon.png
+s322939577.248878
+e322939577.333157
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3 Stats.app/Icon.png
+xResources/Icon.png
+lSLF07#2@23"Copy Resources/Icon.png322939577#322939577#0(0"0(0#0#58"/Users/paul/Documents/Projects/KZ3Stats/Resources/Icon.png8652427680#489"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/Icon.png "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app"0#
+
+CCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/Icon@2x.png" Resources/Icon@2x.png
+s322939577.288315
+e322939577.332570
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3 Stats.app/Icon@2x.png
+xResources/Icon@2x.png
+lSLF07#2@26"Copy Resources/Icon@2x.png322939577#322939577#0(0"0(0#0#61"/Users/paul/Documents/Projects/KZ3Stats/Resources/Icon@2x.png8652333344#492"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/Icon@2x.png "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app"0#
+
+CCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/KZ3StatsDatabase.sql" Resources/KZ3StatsDatabase.sql
+s322939577.234898
+e322939577.287899
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3 Stats.app/KZ3StatsDatabase.sql
+xResources/KZ3StatsDatabase.sql
+lSLF07#2@35"Copy Resources/KZ3StatsDatabase.sql322939577#322939577#0(0"0(0#0#70"/Users/paul/Documents/Projects/KZ3Stats/Resources/KZ3StatsDatabase.sql8650646784#501"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/KZ3StatsDatabase.sql "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app"0#
+
+CCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/background.jpg" Resources/images/background.jpg
+s322939577.235742
+e322939577.288015
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3 Stats.app/background.jpg
+xResources/images/background.jpg
+lSLF07#2@36"Copy Resources/images/background.jpg322939577#322939577#0(0"0(0#0#71"/Users/paul/Documents/Projects/KZ3Stats/Resources/images/background.jpg8650489056#502"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/images/background.jpg "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app"0#
+
+CCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/background@2x.jpg" Resources/images/background@2x.jpg
+s322939577.236276
+e322939577.288155
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3 Stats.app/background@2x.jpg
+xResources/images/background@2x.jpg
+lSLF07#2@39"Copy Resources/images/background@2x.jpg322939577#322939577#0(0"0(0#0#74"/Users/paul/Documents/Projects/KZ3Stats/Resources/images/background@2x.jpg8650175488#505"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/images/background@2x.jpg "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app"0#
+
+CCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/bg_tabcontainer.jpg" Resources/images/bg_tabcontainer.jpg
+s322939577.237139
+e322939577.288246
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3 Stats.app/bg_tabcontainer.jpg
+xResources/images/bg_tabcontainer.jpg
+lSLF07#2@41"Copy Resources/images/bg_tabcontainer.jpg322939577#322939577#0(0"0(0#0#76"/Users/paul/Documents/Projects/KZ3Stats/Resources/images/bg_tabcontainer.jpg8649897152#507"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/images/bg_tabcontainer.jpg "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app"0#
+
+CCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/bg_tabcontainer@2x.jpg" Resources/images/bg_tabcontainer@2x.jpg
+s322939577.239581
+e322939577.332802
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3 Stats.app/bg_tabcontainer@2x.jpg
+xResources/images/bg_tabcontainer@2x.jpg
+lSLF07#2@44"Copy Resources/images/bg_tabcontainer@2x.jpg322939577#322939577#0(0"0(0#0#79"/Users/paul/Documents/Projects/KZ3Stats/Resources/images/bg_tabcontainer@2x.jpg8643231168#510"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/images/bg_tabcontainer@2x.jpg "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app"0#
+
+CCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/iTunesArtwork" Resources/iTunesArtwork
+s322939577.289808
+e322939577.352605
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3 Stats.app/iTunesArtwork
+xResources/iTunesArtwork
+lSLF07#2@28"Copy Resources/iTunesArtwork322939577#322939577#0(0"0(0#0#63"/Users/paul/Documents/Projects/KZ3Stats/Resources/iTunesArtwork8652222624#494"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/iTunesArtwork "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app"0#
+
+CCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/kills.png" Resources/images/kills.png
+s322939577.309069
+e322939577.332675
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3 Stats.app/kills.png
+xResources/images/kills.png
+lSLF07#2@31"Copy Resources/images/kills.png322939577#322939577#0(0"0(0#0#66"/Users/paul/Documents/Projects/KZ3Stats/Resources/images/kills.png8652051616#497"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/images/kills.png "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app"0#
+
+CCpResource "build/Debug-iphonesimulator/KZ3 Stats.app/kills@2x.png" Resources/images/kills@2x.png
+s322939577.329683
+e322939577.334324
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3 Stats.app/kills@2x.png
+xResources/images/kills@2x.png
+lSLF07#2@34"Copy Resources/images/kills@2x.png322939577#322939577#0(0"0(0#0#69"/Users/paul/Documents/Projects/KZ3Stats/Resources/images/kills@2x.png8651957856#500"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/images/kills@2x.png "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app"0#
+
+CCpResource build/Debug-iphonesimulator/KZ3Stats.app/Default.png Resources/Default.png
+s322928783.248415
+e322928783.316927
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3Stats.app/Default.png
+xResources/Default.png
+lSLF07#2@26"Copy Resources/Default.png322928783#322928783#0(0"0(0#0#61"/Users/paul/Documents/Projects/KZ3Stats/Resources/Default.png8625583520#489"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/Default.png /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app0#
+
+CCpResource build/Debug-iphonesimulator/KZ3Stats.app/Default@2x.png Resources/Default@2x.png
+s322928783.250214
+e322928783.350497
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3Stats.app/Default@2x.png
+xResources/Default@2x.png
+lSLF07#2@29"Copy Resources/Default@2x.png322928783#322928783#0(0"0(0#0#64"/Users/paul/Documents/Projects/KZ3Stats/Resources/Default@2x.png8614435680#492"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/Default@2x.png /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app0#
+
+CCpResource build/Debug-iphonesimulator/KZ3Stats.app/Icon-Small.png Resources/Icon-Small.png
+s322928783.253617
+e322928783.295972
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3Stats.app/Icon-Small.png
+xResources/Icon-Small.png
+lSLF07#2@29"Copy Resources/Icon-Small.png322928783#322928783#0(0"0(0#0#64"/Users/paul/Documents/Projects/KZ3Stats/Resources/Icon-Small.png8646940704#492"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/Icon-Small.png /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app0#
+
+CCpResource build/Debug-iphonesimulator/KZ3Stats.app/Icon-Small@2x.png Resources/Icon-Small@2x.png
+s322928783.255200
+e322928783.296104
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3Stats.app/Icon-Small@2x.png
+xResources/Icon-Small@2x.png
+lSLF07#2@32"Copy Resources/Icon-Small@2x.png322928783#322928783#0(0"0(0#0#67"/Users/paul/Documents/Projects/KZ3Stats/Resources/Icon-Small@2x.png8648159968#495"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/Icon-Small@2x.png /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app0#
+
+CCpResource build/Debug-iphonesimulator/KZ3Stats.app/Icon.png Resources/Icon.png
+s322928783.255763
+e322928783.291467
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3Stats.app/Icon.png
+xResources/Icon.png
+lSLF07#2@23"Copy Resources/Icon.png322928783#322928783#0(0"0(0#0#58"/Users/paul/Documents/Projects/KZ3Stats/Resources/Icon.png8647932928#486"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/Icon.png /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app0#
+
+CCpResource build/Debug-iphonesimulator/KZ3Stats.app/Icon@2x.png Resources/Icon@2x.png
+s322928783.259891
+e322928783.296198
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3Stats.app/Icon@2x.png
+xResources/Icon@2x.png
+lSLF07#2@26"Copy Resources/Icon@2x.png322928783#322928783#0(0"0(0#0#61"/Users/paul/Documents/Projects/KZ3Stats/Resources/Icon@2x.png8647561440#489"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/Icon@2x.png /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app0#
+
+CCpResource build/Debug-iphonesimulator/KZ3Stats.app/KZ3StatsDatabase.sql Resources/KZ3StatsDatabase.sql
+s322696929.980039
+e322696930.251135
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3Stats.app/KZ3StatsDatabase.sql
+xResources/KZ3StatsDatabase.sql
+lSLF07#2@35"Copy Resources/KZ3StatsDatabase.sql322696929#322696930#0(0"0(0#0#70"/Users/paul/Documents/Projects/KZ3Stats/Resources/KZ3StatsDatabase.sql27584964337074272#498"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/KZ3StatsDatabase.sql /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app0#
+
+CCpResource build/Debug-iphonesimulator/KZ3Stats.app/background.jpg Resources/images/background.jpg
+s322921767.445931
+e322921767.622337
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3Stats.app/background.jpg
+xResources/images/background.jpg
+lSLF07#2@36"Copy Resources/images/background.jpg322921767#322921767#0(0"0(0#0#71"/Users/paul/Documents/Projects/KZ3Stats/Resources/images/background.jpg8623047968#499"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/images/background.jpg /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app0#
+
+CCpResource build/Debug-iphonesimulator/KZ3Stats.app/background@2x.jpg Resources/images/background@2x.jpg
+s322922650.892122
+e322922650.918401
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3Stats.app/background@2x.jpg
+xResources/images/background@2x.jpg
+lSLF07#2@39"Copy Resources/images/background@2x.jpg322922650#322922650#0(0"0(0#0#74"/Users/paul/Documents/Projects/KZ3Stats/Resources/images/background@2x.jpg8607263584#502"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/images/background@2x.jpg /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app0#
+
+CCpResource build/Debug-iphonesimulator/KZ3Stats.app/bg_tabcontainer.jpg Resources/images/bg_tabcontainer.jpg
+s322928783.242830
+e322928783.291348
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3Stats.app/bg_tabcontainer.jpg
+xResources/images/bg_tabcontainer.jpg
+lSLF07#2@41"Copy Resources/images/bg_tabcontainer.jpg322928783#322928783#0(0"0(0#0#76"/Users/paul/Documents/Projects/KZ3Stats/Resources/images/bg_tabcontainer.jpg8643531680#504"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/images/bg_tabcontainer.jpg /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app0#
+
+CCpResource build/Debug-iphonesimulator/KZ3Stats.app/bg_tabcontainer@2x.jpg Resources/images/bg_tabcontainer@2x.jpg
+s322928783.243782
+e322928783.297643
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3Stats.app/bg_tabcontainer@2x.jpg
+xResources/images/bg_tabcontainer@2x.jpg
+lSLF07#2@44"Copy Resources/images/bg_tabcontainer@2x.jpg322928783#322928783#0(0"0(0#0#79"/Users/paul/Documents/Projects/KZ3Stats/Resources/images/bg_tabcontainer@2x.jpg8641778144#507"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/images/bg_tabcontainer@2x.jpg /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app0#
+
+CCpResource build/Debug-iphonesimulator/KZ3Stats.app/iTunesArtwork Resources/iTunesArtwork
+s322928783.260757
+e322928783.324555
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3Stats.app/iTunesArtwork
+xResources/iTunesArtwork
+lSLF07#2@28"Copy Resources/iTunesArtwork322928783#322928783#0(0"0(0#0#63"/Users/paul/Documents/Projects/KZ3Stats/Resources/iTunesArtwork8647107168#491"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/iTunesArtwork /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app0#
+
+CCpResource build/Debug-iphonesimulator/KZ3Stats.app/kills.png Resources/images/kills.png
+s322928892.739518
+e322928892.748380
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3Stats.app/kills.png
+xResources/images/kills.png
+lSLF07#2@31"Copy Resources/images/kills.png322928892#322928892#0(0"0(0#0#66"/Users/paul/Documents/Projects/KZ3Stats/Resources/images/kills.png8646674592#494"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/images/kills.png /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app0#
+
+CCpResource build/Debug-iphonesimulator/KZ3Stats.app/kills@2x.png Resources/images/kills@2x.png
+s322928892.740263
+e322928892.748510
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/KZ3Stats.app/kills@2x.png
+xResources/images/kills@2x.png
+lSLF07#2@34"Copy Resources/images/kills@2x.png322928892#322928892#0(0"0(0#0#69"/Users/paul/Documents/Projects/KZ3Stats/Resources/images/kills@2x.png8645003584#497"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/paul/Documents/Projects/KZ3Stats/Resources/images/kills@2x.png /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app0#
+
+CGenerateDSYMFile "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app.dSYM" "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/KZ3 Stats"
+s325181036.696995
+e325181036.720676
+r1
+xGenerateDSYMFile
+x/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app.dSYM
+x/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/KZ3 Stats
+lSLF07#2@119"GenerateDSYMFile "build/Debug-iphonesimulator/KZ3 Stats.app.dSYM" "build/Debug-iphonesimulator/KZ3 Stats.app/KZ3 Stats"325181036#325181036#0(0"0(0#0#91"/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/KZ3 Stats8622828544#402"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/usr/bin/dsymutil "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/KZ3 Stats" -o "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app.dSYM"0#
+
+CGenerateDSYMFile /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app.dSYM /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats
+s322939506.322797
+e322939506.341478
+r1
+xGenerateDSYMFile
+x/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app.dSYM
+x/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats
+lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/KZ3Stats.app.dSYM build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats322939506#322939506#0(0"0(0#0#89"/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats8651359616#395"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/usr/bin/dsymutil /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats -o /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app.dSYM0#
+
+CLd "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/KZ3 Stats" normal i386
+s325181036.669212
+e325181036.696898
+r1
+xLd
+x/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/KZ3 Stats
+xnormal
+xi386
+lSLF07#2@96"Link /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/KZ3 Stats325181036#325181036#0(0"0(0#0#0"8626784768#937"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -filelist "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/KZ3 Stats.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -o "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/KZ3 Stats"0#
+
+CLd /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats normal i386
+s322939506.298869
+e322939506.322694
+r1
+xLd
+x/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats
+xnormal
+xi386
+lSLF07#2@94"Link /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats322939506#322939506#0(0"0(0#0#0"8651748640#930"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -filelist /Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/Objects-normal/i386/KZ3Stats.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -o /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/KZ3Stats0#
+
+CProcessInfoPlistFile "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/Info.plist" KZ3Stats-Info.plist
+s322939577.227204
+e322939577.234817
+r1
+xProcessInfoPlistFile
+x/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/Info.plist
+xKZ3Stats-Info.plist
+lSLF07#2@27"Process KZ3Stats-Info.plist322939577#322939577#0(0"0(0#0#59"/Users/paul/Documents/Projects/KZ3Stats/KZ3Stats-Info.plist8650919296#495"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility KZ3Stats-Info.plist -genpkginfo "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app/Info.plist"0#
+
+CProcessInfoPlistFile /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/Info.plist KZ3Stats-Info.plist
+s322928783.207649
+e322928783.242467
+r1
+xProcessInfoPlistFile
+x/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/Info.plist
+xKZ3Stats-Info.plist
+lSLF07#2@27"Process KZ3Stats-Info.plist322928783#322928783#0(0"0(0#0#59"/Users/paul/Documents/Projects/KZ3Stats/KZ3Stats-Info.plist8648790624#489"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility KZ3Stats-Info.plist -genpkginfo /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app/Info.plist0#
+
+CProcessPCH /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch.gch KZ3Stats_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s322939577.373058
+e322939578.206128
+r1
+xProcessPCH
+x/var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch.gch
+xKZ3Stats_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile KZ3Stats_Prefix.pch322939577#322939578#0(0"0(0#0#59"/Users/paul/Documents/Projects/KZ3Stats/KZ3Stats_Prefix.pch8651292352#1855"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv LANG en_US.US-ASCII    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-generated-files.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-own-target-headers.hmap" "-I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-all-target-headers.hmap" -iquote "/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/KZ3 Stats-project-headers.hmap" -F/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator -I/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/include -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources/i386 -I/Users/paul/Documents/Projects/KZ3Stats/build/KZ3Stats.build/Debug-iphonesimulator/KZ3Stats.build/DerivedSources -c /Users/paul/Documents/Projects/KZ3Stats/KZ3Stats_Prefix.pch -o /var/folders/Nm/NmcPjGepGQWV1A1s72R28U+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/KZ3Stats_Prefix-fhqbzrxsqypqnogbyuighuygczoi/KZ3Stats_Prefix.pch.gch0#
+
+CTouch "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app"
+s325181036.720752
+e325181036.723334
+r1
+xTouch
+x/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app
+lSLF07#2@87"Touch /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app325181036#325181036#0(0"0(0#0#0"8617181312#288"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3 Stats.app"0#
+
+CTouch /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app
+s322939506.341559
+e322939506.343710
+r1
+xTouch
+x/Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app
+lSLF07#2@86"Touch /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app322939506#322939506#0(0"0(0#0#0"8651131040#285"    cd /Users/paul/Documents/Projects/KZ3Stats    setenv PATH "/Xcode/3.2.5/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Xcode/3.2.5/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/paul/Documents/Projects/KZ3Stats/build/Debug-iphonesimulator/KZ3Stats.app0#
+
