@@ -64,16 +64,17 @@
 			// Loop through the results and add them to the feeds array
 			while(sqlite3_step(compiledStatement) == SQLITE_ROW) {
 				// Read the data from the result row
-				NSString *aName = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 1)];
-				NSNumber *aKills = [NSNumber numberWithInt:(int)sqlite3_column_int(compiledStatement, 2)];
+                int           aId       = sqlite3_column_int(compiledStatement, 0);
+				NSString    * aName     = [NSString stringWithUTF8String:(char *)sqlite3_column_text(compiledStatement, 1)];
+				int           aKills    = sqlite3_column_int(compiledStatement, 2);
 				
 				// Create a new animal object with the data from the database
-				Friend *friend = [[Friend alloc] initWithName:aName kills:aKills];
-				
-				// Add the animal object to the animals Array
-				[friends addObject:friend];
-				
-				[friend release];
+//				Friend *friend = [[Friend alloc] initWithName:aName kills:aKills dbId:aId];
+//				
+//				// Add the animal object to the animals Array
+//				[friends addObject:friend];
+//				
+//				[friend release];
 			}
 		}
 		// Release the compiled statement from memory
