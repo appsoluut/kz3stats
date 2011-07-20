@@ -24,13 +24,15 @@
 
 - (void)start {
 	NSString *url = [NSString stringWithFormat:@"%@%@", baseURL, path];
+    
+    DLog(@"URL: %@", url);
 	
 	NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:url]];
 	
 	NSDictionary *properties = [NSDictionary dictionaryWithObjectsAndKeys:
 								@"www.killzone.com", NSHTTPCookieDomain,
 								@"\\", NSHTTPCookiePath,
-								@"kz_valid_age", NSHTTPCookieName,
+								@"kz_settings", NSHTTPCookieName,
 								cookieValue, NSHTTPCookieValue,
 								nil];
 	
@@ -40,8 +42,9 @@
 	
 	NSDictionary *headers = [NSHTTPCookie requestHeaderFieldsWithCookies:cookies];
 	[request setAllHTTPHeaderFields:headers];
-	[[NSURLConnection alloc] initWithRequest:request delegate:self];
+	[[[NSURLConnection alloc] initWithRequest:request delegate:self] autorelease];
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
+    [request release], request = nil;
 }
 
 
@@ -55,7 +58,6 @@
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
     [responseData release];
-    [connection release];
     // Show error message
 
     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
@@ -74,7 +76,6 @@
     
     [str release];
     [responseData release];
-    [connection release];
 }
 
 

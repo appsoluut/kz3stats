@@ -10,7 +10,8 @@
 
 
 @implementation FriendsListViewController
-@synthesize db;
+@synthesize fetchedResultsController;
+@synthesize managedObjectContext;
 
 #pragma mark -
 #pragma mark Initialization
@@ -20,11 +21,11 @@
     self = [super initWithStyle:style];
     if (self) {
         // Custom initialization.
-		[self setTitle:@"Friends"];
+		[self setTitle:NSLocalizedString(@"FriendsKey", @"")];
 		
 		UIBarButtonItem *addFriendButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addFriendButtonClicked:)];
 		self.navigationItem.rightBarButtonItem = addFriendButton;
-		[addFriendButton release];
+		[addFriendButton release], addFriendButton = nil;
 	}
     return self;
 }
@@ -43,8 +44,15 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-	
-	friends = [[NSMutableArray alloc] initWithArray:[self.db readFriendsFromDatabase]];
+    
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Friends" inManagedObjectContext:managedObjectContext];
+    [fetchRequest setEntity:entity];
+    friendsObjects = [[NSMutableArray arrayWithArray:[managedObjectContext executeFetchRequest:fetchRequest error:nil]] retain];
+    [fetchRequest release], fetchRequest = nil;
+    
+//	
+//	friends = [[NSMutableArray alloc] initWithArray:[self.db readFriendsFromDatabase]];
 	[self setEditing:YES];
 }
 
@@ -60,8 +68,10 @@
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
 	
-	[friends removeAllObjects];
-	[friends release];
+//	[friends removeAllObjects];
+//	[friends release], friends = nil;
+//    
+    [friendsObjects release], friendsObjects = nil;
 }
 
 
@@ -76,7 +86,8 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return [friends count];
+    //return [friends count];
+    return [friendsObjects count];
 }
 
 
@@ -89,12 +100,15 @@
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
     }
-	
+    
+    Friends *friend = [friendsObjects objectAtIndex:indexPath.row];
+    [[cell textLabel] setText:[friend name]];
+    
     // Configure the cell...
-	Friend *friend = [friends objectAtIndex:indexPath.row];
-	
-	[[cell textLabel] setText:[friend name]];
-	NSLog(@"%@ has %i kills!", [friend name], [[friend kills] intValue]);
+	//Friend *friend = [friends objectAtIndex:indexPath.row];
+    
+	//[[cell textLabel] setText:[friend name]];
+//	NSLog(@"%@ has %i kills!", [friend name], [friend kills]);
     
     return cell;
 }
@@ -112,8 +126,15 @@
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         // Delete the row from the data source.
+        /*
 		[db deleteFriend:[(Friend *)[friends objectAtIndex:indexPath.row] name]];
 		[friends removeObjectAtIndex:indexPath.row];
+         */
+        NSManagedObject *friend = [friendsObjects objectAtIndex:indexPath.row];
+        [managedObjectContext deleteObject:friend];
+        [managedObjectContext save:nil];
+
+        [friendsObjects removeObjectAtIndex:indexPath.row];
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
@@ -130,7 +151,7 @@
 // Override to support conditional rearranging of the table view.
 - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
     // Return NO if you do not want the item to be re-orderable.
-    return YES;
+    return NO;
 }
 
 
@@ -171,16 +192,16 @@
 #pragma mark -
 #pragma mark Bar buttons
 - (void)addFriendButtonClicked:(id)sender {
-	UIAlertView *prompt = [[UIAlertView alloc] initWithTitle:@"Add friend"
+	UIAlertView *prompt = [[UIAlertView alloc] initWithTitle:NSLocalizedString(@"AddAFriendKey", @"")
 													 message:@"\n"
 													delegate:self
-										   cancelButtonTitle:@"Cancel"
-										   otherButtonTitles:@"Add", nil];
+										   cancelButtonTitle:NSLocalizedString(@"CancelKey", @"")
+										   otherButtonTitles:NSLocalizedString(@"AddKey", @""), nil];
 	
 	username = [[UITextField alloc] initWithFrame:CGRectMake(12, 45, 260, 25)];
 	[username setContentVerticalAlignment:UIControlContentVerticalAlignmentCenter];
 	[username setAdjustsFontSizeToFitWidth:NO];
-	[username setPlaceholder:@"Username"];
+	[username setPlaceholder:NSLocalizedString(@"UsernameKey", @"")];
 	[username setAutocorrectionType:UITextAutocorrectionTypeNo];
 	[username setAutocapitalizationType:UITextAutocapitalizationTypeNone];
 	[username setBackgroundColor:[UIColor whiteColor]];
@@ -212,12 +233,29 @@
 		// Cancel
 	} else {
 		if ([[username text] length] > 0) {
-			Friend *friend = [[Friend alloc] initWithName:[username text] kills:[NSNumber numberWithInt:0]];
+            NSError *error;
+            
+            NSManagedObject *friend = [NSEntityDescription insertNewObjectForEntityForName:@"Friends" inManagedObjectContext:self.managedObjectContext];
+            [friend setValue:[username text] forKey:@"name"];
+            if ( ![self.managedObjectContext save:&error] ) {
+                DLog(@"Can't save due to: %@", [error description]);
+            }
+            
+            NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+            NSEntityDescription *entity = [NSEntityDescription entityForName:@"Friends" inManagedObjectContext:managedObjectContext];
+            [fetchRequest setEntity:entity];
+            friendsObjects = [[managedObjectContext executeFetchRequest:fetchRequest error:nil] retain];
+            [fetchRequest release], fetchRequest = nil;
+            
+			[self.tableView reloadData];
+
+            /*
+			Friend *friend = [[Friend alloc] initWithName:[username text] kills:0 dbId:0];
 			[friends addObject:friend];
 			[self.db addFriend:[friend name]];
-			[self.tableView reloadData];
 			
 			[friend release];
+             */
 		}
 	}
 	

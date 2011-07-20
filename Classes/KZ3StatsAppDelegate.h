@@ -7,24 +7,30 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreData/CoreData.h>
 #import "Database.h"
 #import "FriendsListViewController.h"
 #import "StatsViewController.h"
 
 @interface KZ3StatsAppDelegate : NSObject <UIApplicationDelegate> {
-	// Database
-	Database *db;
-	
+    // Core Data
+    NSManagedObjectModel            * managedObjectModel;
+    NSManagedObjectContext          * managedObjectContext;
+    NSPersistentStoreCoordinator    * persistentStoreCoordinator;
+    
 	// Views
-    UIWindow *window;
-	FriendsListViewController *friendsListViewController;
-	StatsViewController *statsViewController;
+    UIWindow                        * window;
+	FriendsListViewController       * friendsListViewController;
+	StatsViewController             * statsViewController;
 	
 	// Navigation
-	UINavigationController *navigationController;
+	UINavigationController          * navigationController;
 }
+@property (nonatomic, retain) UIWindow                                  * window;
+@property (nonatomic, retain, readonly) NSManagedObjectModel            * managedObjectModel;
+@property (nonatomic, retain, readonly) NSManagedObjectContext          * managedObjectContext;
+@property (nonatomic, retain, readonly) NSPersistentStoreCoordinator    * persistentStoreCoordinator;
 
-@property (nonatomic, retain) UIWindow *window;
+- (NSString *)applicationDocumentsDirectory;
 
 @end
-

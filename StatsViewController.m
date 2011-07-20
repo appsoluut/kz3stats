@@ -10,7 +10,8 @@
 
 
 @implementation StatsViewController
-@synthesize db;
+@synthesize fetchedResultsController;
+@synthesize managedObjectContext;
 
 #pragma mark -
 #pragma mark Setup Views
@@ -20,13 +21,13 @@
     if (self) {
 		[self setTitle:@"KZ3 Stats"];
 		
-		UIBarButtonItem *friendsButton = [[UIBarButtonItem alloc] initWithTitle:@"Friends" style:UIBarButtonItemStyleBordered target:self action:@selector(friendsButtonClicked:)];
+		UIBarButtonItem *friendsButton = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"FriendsKey", @"") style:UIBarButtonItemStyleBordered target:self action:@selector(friendsButtonClicked:)];
 		self.navigationItem.rightBarButtonItem = friendsButton;
-		[friendsButton release];
+		[friendsButton release], friendsButton = nil;
 		
 		UIBarButtonItem *reloadButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(refreshButtonClicked:)];
 		self.navigationItem.leftBarButtonItem = reloadButton;
-		[reloadButton release];
+		[reloadButton release], reloadButton = nil;
     }
     return self;
 }
@@ -46,41 +47,157 @@
     [[self view] addSubview:bannerView];
     
     GADRequest *adRequest = [[GADRequest alloc] init];
-    [adRequest setTestDevices:[NSArray arrayWithObjects:GAD_SIMULATOR_ID, @"a9e83bc49292868ebfc3b3906f8bd94050524535", nil]];
+    [adRequest setTestDevices:[NSArray arrayWithObjects:GAD_SIMULATOR_ID, nil]];
     [adRequest setKeywords:[NSArray arrayWithObjects:@"Killzone", @"gaming", @"statistics", @"achievement", @"games", nil]];
     
     [bannerView loadRequest:adRequest];
     [adRequest release], adRequest = nil;
-	
-	friends = [[NSArray alloc] initWithArray:[self.db readFriendsFromDatabase]];
-	
-	NSUInteger capacity = 3;
-	if ([friends count] < capacity) {
-		capacity = [friends count];
-	}
-	
-	statsViews = [[NSMutableArray alloc] initWithCapacity:capacity];
-	
+    
 	scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, 320, 416)];
 	[scrollView setAlwaysBounceHorizontal:YES];
 	[scrollView setContentSize:CGSizeMake(320 * [friends count], scrollView.frame.size.height)];
 	[scrollView setPagingEnabled:YES];
 	[scrollView setDelegate:self];
 	[[self view] addSubview:scrollView];
-	
-	// Setup initial statistic views
-	for (int index = 0; index < capacity; index++) {
-		Friend *friend = [friends objectAtIndex:index];
-		
-		StatsView *statsView = [[StatsView alloc] initWithFrame:CGRectMake(20 + (index * self.view.bounds.size.width), 20, self.view.bounds.size.width - 40, 376)];
-		[statsView setName:[friend name]];
-		[statsView fillFields];
-		
-		[statsViews insertObject:statsView atIndex:index];
-		[scrollView addSubview:statsView];
-        [statsView release], statsView = nil;
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"Friends" inManagedObjectContext:managedObjectContext];
+    [fetchRequest setEntity:entity];
+    friends = [[managedObjectContext executeFetchRequest:fetchRequest error:nil] retain];
+    [fetchRequest release], fetchRequest = nil;
+
+	[scrollView setContentSize:CGSizeMake(320 * [friends count], scrollView.frame.size.height)];
+    
+    if ([friends count] == 0 && labelNoFriendsTitle == nil) {
+        labelNoFriendsTitle = [[UILabel alloc] initWithFrame:self.view.bounds];
+        [labelNoFriendsTitle setNumberOfLines:0];
+        [labelNoFriendsTitle setText:NSLocalizedString(@"NoFriendsTitleKey", @"")];
+		[labelNoFriendsTitle setTextColor:[UIColor colorWithRed:235/255.0f green:135/255.0f blue:0.0f alpha:1.0f]];
+        [labelNoFriendsTitle setShadowColor:[UIColor blackColor]];
+        [labelNoFriendsTitle setShadowOffset:CGSizeMake(0, 1)];
+		[labelNoFriendsTitle setTextAlignment:UITextAlignmentCenter];
+		[labelNoFriendsTitle setFont:[UIFont fontWithName:@"Helvetica-Bold" size:27]];
+        [labelNoFriendsTitle setBackgroundColor:[UIColor clearColor]];
+        [labelNoFriendsTitle sizeToFit];
+        [labelNoFriendsTitle setCenter:self.view.center];
+        
+        CGRect titleFrame = labelNoFriendsTitle.frame;
+        titleFrame.origin.y = 10;
+        
+        [labelNoFriendsTitle setFrame:titleFrame];
+        [self.view addSubview:labelNoFriendsTitle];
+        
+        
+        labelNoFriendsDescription = [[UILabel alloc] initWithFrame:self.view.bounds];
+        [labelNoFriendsDescription setNumberOfLines:0];
+        [labelNoFriendsDescription setText:NSLocalizedString(@"NoFriendsDescriptionKey", @"")];
+		[labelNoFriendsDescription setTextColor:[UIColor lightGrayColor]];
+        [labelNoFriendsDescription setShadowColor:[UIColor blackColor]];
+        [labelNoFriendsDescription setShadowOffset:CGSizeMake(0, 1)];
+		[labelNoFriendsDescription setTextAlignment:UITextAlignmentCenter];
+		[labelNoFriendsDescription setFont:[UIFont fontWithName:@"Helvetica" size:16]];
+        [labelNoFriendsDescription setBackgroundColor:[UIColor clearColor]];
+        [labelNoFriendsDescription sizeToFit];
+        [labelNoFriendsDescription setCenter:self.view.center];
+        
+        CGRect descFrame = labelNoFriendsDescription.frame;
+        descFrame.origin.y = labelNoFriendsTitle.frame.origin.y + labelNoFriendsTitle.frame.size.height + 10;
+        
+        [labelNoFriendsDescription setFrame:descFrame];
+        
+        [self.view addSubview:labelNoFriendsDescription];
+    } else if([friends count] > 0 && labelNoFriendsTitle) {
+        [labelNoFriendsTitle removeFromSuperview];
+        [labelNoFriendsTitle release], labelNoFriendsTitle = nil;
+        
+        [labelNoFriendsDescription removeFromSuperview];
+        [labelNoFriendsDescription release], labelNoFriendsDescription = nil;
+    }
+    
+	NSUInteger capacity = 3;
+	if ([friends count] < capacity) {
+		capacity = [friends count];
 	}
-	
+
+    if(statsViews) {
+        if (capacity < [statsViews count]) {
+            // Remove items
+            
+            int removeStatsViews = abs(capacity - [statsViews count]);
+            
+            for (int removeIndex = 0; removeIndex < removeStatsViews; removeIndex++) {
+                [(StatsView *)[statsViews lastObject] removeFromSuperview];
+                [statsViews removeLastObject];
+            }
+        }
+
+        for (int index = [statsViews count]; index < capacity; index++) {
+            // Add items
+            StatsView *statsView = [[StatsView alloc] initWithFrame:CGRectMake(20 + (index * self.view.bounds.size.width), 20, self.view.bounds.size.width - 40, 376)];
+            
+            [statsViews insertObject:statsView atIndex:index];
+            [scrollView addSubview:statsView];
+            [statsView release], statsView = nil;
+        }
+        
+        int index = 0;
+        for (StatsView *statsView in statsViews) {
+            if (index >= capacity) {
+                break;
+            }
+            
+            Friends *friend = [friends objectAtIndex:index];
+
+            [statsView setName:[friend name]];
+            [statsView setKills:[[friend kills] intValue]];
+            [statsView setXp:[[friend xp] intValue]];
+            [statsView setHeadshots:[[friend headshots] intValue]];
+            [statsView setKd:[[friend kd] floatValue]];
+            [statsView setRibbons:[[friend ribbons] intValue]];
+            [statsView fillFields];
+
+            if(isShowingAd && statsView.frame.size.height >= 376) {
+                CGRect statsViewRect = [statsView frame];
+                statsViewRect.size.height -= GAD_SIZE_320x50.height;
+                [statsView setFrame:statsViewRect];
+            }
+            
+            index++;
+        }
+
+        currentPage = capacity - 1;
+        [scrollView setContentOffset:CGPointMake(0, 0) animated:NO];
+    } else {
+        statsViews = [[NSMutableArray alloc] initWithCapacity:capacity];
+
+        // Setup initial statistic views
+        for (int index = 0; index < capacity; index++) {
+            Friends *friend = [friends objectAtIndex:index];
+            
+            StatsView *statsView = [[StatsView alloc] initWithFrame:CGRectMake(20 + (index * self.view.bounds.size.width), 20, self.view.bounds.size.width - 40, 376)];
+            [statsView setName:[friend name]];
+            [statsView setKills:[[friend kills] intValue]];
+            [statsView setXp:[[friend xp] intValue]];
+            [statsView setHeadshots:[[friend headshots] intValue]];
+            [statsView setKd:[[friend kd] floatValue]];
+            [statsView setRibbons:[[friend ribbons] intValue]];
+            [statsView fillFields];
+
+            if(isShowingAd) {
+                CGRect statsViewRect = [statsView frame];
+                statsViewRect.size.height -= GAD_SIZE_320x50.height;
+                [statsView setFrame:statsViewRect];
+            }
+            
+            [statsViews insertObject:statsView atIndex:index];
+            [scrollView addSubview:statsView];
+            [statsView release], statsView = nil;
+        }
+    }
+    
 	currentPage = 0;
 }
 
@@ -111,7 +228,7 @@
 		}
 		
 		// Get friend data for current view
-		Friend *friend = [friends objectAtIndex:pageSelect + index];
+		Friends *friend = [friends objectAtIndex:pageSelect + index];
 		StatsView *statView = [statsViews objectAtIndex:objIndex];
 		
 		// Calculate the new horizontal position of the view
@@ -121,6 +238,11 @@
 		// Set data
 		[statView setFrame:statRect];
 		[statView setName:[friend name]];
+        [statView setKills:[[friend kills] intValue]];
+        [statView setXp:[[friend xp] intValue]];
+        [statView setHeadshots:[[friend headshots] intValue]];
+        [statView setKd:[[friend kd] floatValue]];
+        [statView setRibbons:[[friend ribbons] intValue]];
 		[statView fillFields];
 		
 		objIndex++;
@@ -142,14 +264,17 @@
 - (void)viewDidUnload {
     [super viewDidUnload];
     
-    [bannerView release];
-    bannerView = nil;
-	
-	[scrollView release];
-	scrollView = nil;
-	
-	[statsViews release];
-	statsViews = nil;
+    if(labelNoFriendsTitle) {
+        [labelNoFriendsTitle release], labelNoFriendsTitle = nil;
+    }
+    
+    if(labelNoFriendsDescription) {
+        [labelNoFriendsDescription release], labelNoFriendsDescription = nil;
+    }
+    
+    [bannerView release], bannerView = nil;
+	[scrollView release], scrollView = nil;
+	[statsViews release], statsViews = nil;
 }
 
 
@@ -190,15 +315,15 @@
 #pragma mark Buttons
 - (void)friendsButtonClicked:(id)sender {
 	FriendsListViewController *friendsListViewController = [[FriendsListViewController alloc] init];
-	[friendsListViewController setDb:self.db];
+    [friendsListViewController setManagedObjectContext:self.managedObjectContext];
 	[self.navigationController pushViewController:friendsListViewController animated:YES];
 	[friendsListViewController release];
 }
 
 - (void)refreshButtonClicked:(id)sender {
-	for (Friend *friend in friends) {
+	for (Friends *friend in friends) {
 		OverviewRequest *request = [[OverviewRequest alloc] init];
-		[request setUsername:[friend name]];
+        [request setFriends:friend];
 		[request start];
 		[request release];
 	}

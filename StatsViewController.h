@@ -7,30 +7,36 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Database.h"
+#import <CoreData/CoreData.h>
 #import "FriendsListViewController.h"
-#import "Friend.h"
+#import "Friends.h"
 #import "StatsView.h"
 #import "OverviewRequest.h"
 #import "GADBannerView.h"
 
 
 @interface StatsViewController : UIViewController <UIScrollViewDelegate, GADBannerViewDelegate> {
-	// Database
-	Database        * db;
-	
+    NSFetchedResultsController  * fetchedResultsController;
+    NSManagedObjectContext      * managedObjectContext;
+
 	// Data
-	NSArray         * friends;
-	NSUInteger        currentPage;
+	NSArray                     * friends;
+	NSUInteger                    currentPage;
 	
 	// Views
-	UIScrollView    * scrollView;
-	NSMutableArray  * statsViews;
+	UIScrollView                * scrollView;
+	NSMutableArray              * statsViews;
+    UILabel                     * labelNoFriendsTitle;
+    UILabel                     * labelNoFriendsDescription;
+    
+    // Threads
+    NSOperationQueue            * operationQueue;
     
     // Ads
-    GADBannerView   * bannerView;
-    BOOL              isShowingAd;
+    GADBannerView               * bannerView;
+    BOOL                          isShowingAd;
 }
-@property (nonatomic, retain) Database *db;
+@property (nonatomic, retain) NSFetchedResultsController    * fetchedResultsController;
+@property (nonatomic, retain) NSManagedObjectContext        * managedObjectContext;
 
 @end

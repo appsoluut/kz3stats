@@ -7,16 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Database.h"
-#import "Friend.h"
-//#import "AddFriendViewController.h"
+#import <CoreData/CoreData.h>
+#import "Friends.h"
 
-@interface FriendsListViewController : UITableViewController <UIAlertViewDelegate, UITextFieldDelegate> {
-	Database *db;
-	
+@interface FriendsListViewController : UITableViewController <UIAlertViewDelegate, UITextFieldDelegate, NSFetchedResultsControllerDelegate> {
+    NSFetchedResultsController  * fetchedResultsController;
+    NSManagedObjectContext      * managedObjectContext;
+    NSMutableArray              * friendsObjects;
+
 	NSMutableArray *friends;
 	UITextField *username;
 }
-@property (nonatomic, retain) Database *db;
+@property (nonatomic, retain) NSFetchedResultsController    * fetchedResultsController;
+@property (nonatomic, retain) NSManagedObjectContext        * managedObjectContext;
 
 @end

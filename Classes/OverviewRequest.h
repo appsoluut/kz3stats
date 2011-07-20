@@ -7,12 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Friends.h"
 #import "ApiRequest.h"
 
 @interface OverviewRequest : ApiRequest <ApiRequestDelegate> {
-	NSString *username;
+	NSString                * username;
+    Friends                 * friends;
 }
+@property (nonatomic, retain) Friends                   * friends;
 
-- (void)setUsername:(NSString *)uname;
+//- (void)setUsername:(NSString *)uname;
 
 @end

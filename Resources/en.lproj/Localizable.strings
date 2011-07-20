@@ -1,0 +1,20 @@
+/* 
+  Localizable.strings
+  KZ3Stats
+
+  Created by Paul Hameteman on 7/20/11.
+  Copyright 2011 AppSoluut. All rights reserved.
+*/
+
+// Pages
+"FriendsKey"                    = "Friends";
+
+// Add friends help
+"NoFriendsTitleKey"             = "No friends added yet!";
+"NoFriendsDescriptionKey"       = "Add at least 1 person using the 'Friends' button. Enter the PSN name, for example Piromaan, and go back to this screen. The statistics will be shown from now on.";
+
+// Add friends alert
+"AddAFriendKey"                 = "Add a friend";
+"UsernameKey"                   = "Username";
+"CancelKey"                     = "Cancel";
+"AddKey"                        = "Add";

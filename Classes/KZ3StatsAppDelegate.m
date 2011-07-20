@@ -11,15 +11,62 @@
 @implementation KZ3StatsAppDelegate
 
 @synthesize window;
+@synthesize managedObjectModel;
+@synthesize managedObjectContext;
+@synthesize persistentStoreCoordinator;
 
+#pragma mark - Core data
+- (NSManagedObjectContext *) managedObjectContext {
+    if (managedObjectContext != nil) {
+        return managedObjectContext;
+    }
+    NSPersistentStoreCoordinator *coordinator = [self persistentStoreCoordinator];
+    if (coordinator != nil) {
+        managedObjectContext = [[NSManagedObjectContext alloc] init];
+        [managedObjectContext setPersistentStoreCoordinator: coordinator];
+    }
+    
+    return managedObjectContext;
+}
+
+- (NSManagedObjectModel *)managedObjectModel {
+    if (managedObjectModel != nil) {
+        return managedObjectModel;
+    }
+    managedObjectModel = [[NSManagedObjectModel mergedModelFromBundles:nil] retain];
+    
+    return managedObjectModel;
+}
+
+- (NSPersistentStoreCoordinator *)persistentStoreCoordinator {
+    if (persistentStoreCoordinator != nil) {
+        return persistentStoreCoordinator;
+    }
+    NSURL *storeUrl = [NSURL fileURLWithPath:[[self applicationDocumentsDirectory]
+                                              stringByAppendingPathComponent:@"KZ3Stats.sqlite"]];
+    NSError *error = nil;
+    persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc]
+                                  initWithManagedObjectModel:[self managedObjectModel]];
+    NSDictionary *options = [NSDictionary dictionaryWithObjectsAndKeys:
+                             [NSNumber numberWithBool:YES], NSMigratePersistentStoresAutomaticallyOption,
+                             [NSNumber numberWithBool:YES], NSInferMappingModelAutomaticallyOption, nil];
+    if(![persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType
+                                                 configuration:nil URL:storeUrl options:options error:&error]) {
+        /*Error for store creation should be handled in here*/
+        NSLog(@"ERROR: %@", [error description]);
+    }
+    
+    return persistentStoreCoordinator;
+}
+
+- (NSString *)applicationDocumentsDirectory {
+    return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
+}
 
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-	// Setup database
-	db = [[Database alloc] init];
-	
     // Override point for customization after application launch.
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	[self.window setBackgroundColor:[UIColor whiteColor]];
@@ -29,7 +76,7 @@
 	
     // UINavigation
 	statsViewController = [[StatsViewController alloc] initWithNibName:nil bundle:[NSBundle mainBundle]];
-	[statsViewController setDb:db];
+    statsViewController.managedObjectContext = self.managedObjectContext;
 
 	navigationController = [[UINavigationController alloc] initWithRootViewController:statsViewController];
 	[[navigationController navigationBar] setBarStyle:UIBarStyleBlackOpaque];
@@ -89,7 +136,10 @@
 
 
 - (void)dealloc {
-	[db release];
+    [managedObjectContext release];
+    [managedObjectModel release];
+    [persistentStoreCoordinator release];
+    
 	[friendsListViewController release];
 	[statsViewController release];
 	[navigationController release];
